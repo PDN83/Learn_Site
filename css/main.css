@@ -64,27 +64,7 @@ em {
   }
 }
 
-.text {
-  position: absolute;
-  width: 494px;
-  height: 36px;
-  left: 119px;
-  top: 117px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 31px;
-  line-height: 36px;
-  display: flex;
-  align-items: center;
-  color: #000000;
 
-}
 
-.rectangle {
-  width:200px;
-  height:270px;
-  background: #86C6F4;;
-}
 
 

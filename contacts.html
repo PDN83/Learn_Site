@@ -8,6 +8,9 @@
   <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <link rel="stylesheet" type="text/css" href="css/contacts.css">
+
+  <script async src="./js/popup.js"></script>
  </head>
 
 <body>
@@ -40,15 +43,31 @@
         <button class="button">
           Войти
         </button>
+
+        <div class="login-popup">
+          <h2 class="login-heading">Войти на сайт</h2>
+            <form class="login-form">
+             
+            <input class="login-input" name="login" type="text" placeholder="Логин" required>
+            
+            <input class="login-password" name="password" type="text" placeholder="Пароль" required>
+            
+            <button class="popup-button" type="submit">Войти</button>
+          </form>
+       </div>
       </div>
     </header>
 
     <main class="main">
-      <h1 class="main-heading">Как нас найти 🗺️️</h1>
-      <img class="about-photo" src="../imges\goole-map 1.png" height="378px">
-      <p class="main-text">Наши контакты</p>
-      <p class="text-info">Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000</p>
-      <p class="phone-number">Тел: +7 (812) 555-55-55</p>
+      <h3 class="text-search mainer">Как нас найти 🗺️️</h3>
+
+      <img src="imges/goole-map 1.png" class="img-contact">
+      
+      <p class="text-contact mainer">
+        <strong>Наши контакты</strong>
+        <br>Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000<br> 
+        <ins>Тел: +7 (812) 555-55-55</ins>
+      </p>
     </main>
 
     <footer class="footer">
